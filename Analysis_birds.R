@@ -14,7 +14,7 @@ require(lattice)      # needed for  `xyplot`
 require(mvabund)      # needed for  `mvabund()`, `manyglm()`
 
 # Working directory
-setwd("L:/leon/Studium/Bachelor/Bachelorarbeit/Statistik")
+setwd("L:/leon/Studium/Bachelor/Bachelorarbeit/Statistik") # adjust path
 
 # Read in data 
 env19=read.table("env2019_subset.txt",header=T,sep="\t")
