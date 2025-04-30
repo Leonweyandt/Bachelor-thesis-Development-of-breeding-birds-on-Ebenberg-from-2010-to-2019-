@@ -1,1 +1,1 @@
-<img src="path/to/image.png" width="400" />
+<img src="significant_species.png" width="400" />
