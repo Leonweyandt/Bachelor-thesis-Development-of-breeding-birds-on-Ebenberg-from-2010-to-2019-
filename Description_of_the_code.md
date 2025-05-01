@@ -1,4 +1,5 @@
-In the bachelor thesis "Development of breeding birds on Ebenberg from 2010 to 2019 was executed a mapping of breeding birds and of vegetation on the nature protection area "Ebenberg" in Landau in der Pfalz (Germany).
-The mapping data first got entered in QGIS, where also a grid of the area of investigation got produced. For each cell of the grid was analyzed which breeding bird species is abundant using QGIS.
-The result of this analysis got saved in a table and entered in R. With a multivariat analysis it got tested, if there is a significant zusammenhang of breeding bird species in specifical types of vegetation.
-For this the multivariat analysis xx got used.
+In the bachelor thesis "Development of breeding birds on Ebenberg from 2010 to 2019," a mapping of breeding birds and vegetation was carried out in the Ebenberg nature reserve in Landau in der Pfalz (Germany).
+
+The mapping data was first entered into QGIS, where a grid of cells with side lengths of 150 meters was created over the study area. Using the function "intersection" from QGIS, the presence of breeding bird species was analyzed for each grid cell. The results were saved in a table and then imported into R for further statistical analysis.
+
+In R the species with less then five occurrences in the cell got excluded from the analysis and the different types of vegetation were categorized into the two groups "shrub" and "open". After this the multivariate test "manyglm" with the following statistical test "anova" was applied to determine if there is a significant relationship between the occurrence of breeding bird species and the type of vegetation. The final results were visualized using lineplots created with xyplot. 
